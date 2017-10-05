@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    
+    <title>World Travel | Destinations | Cultures | Tourism</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" href="static/favicon_an.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h1>Travel Blog</h1>
+            <h2>World Travel | Destinations | Cultures | Tourism</h2>
+        </section>
+        <section>
+            <h3>Somewhere in the World</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Mauris eget venenatis ligula. Ut lacinia at dolor vitae 
+                pulvinar. Aliquam pretium dignissim eros. Integer faucibus, 
+                dui non aliquet bibendum, lectus orci lobortis odio, ornare 
+                porttitor est tellus eget velit. Nulla eros elit, malesuada id 
+                neque vel, viverra vehicula neque. Nullam auctor turpis non leo 
+                iaculis finibus. Quisque blandit arcu venenatis libero tempor, 
+                ac pulvinar ligula dapibus.
+            </p>
+            <!-- Art Direction picture switcher to suit narrow, medium and wide
+            screen sizes -->
+            <picture>
+                <source media="(max-width: 360px)" 
+                        srcset="static/rocktop-320w.jpg">
+                <source media="(max-width: 640px)" 
+                        srcset="static/rocktop-600w.jpg">
+                <source media="(min-width: 641pxpx)" 
+                        srcset="static/rocktop.jpg">
+                <img src="static/rocktop.jpg" 
+                        alt="Houses built on a very high and narrow rock">
+            </picture>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Mauris eget venenatis ligula. Ut lacinia at dolor vitae 
+                pulvinar. Aliquam pretium dignissim eros.
+            </p>
+        </section>
+        <section>
+            <h3>Somewhere else in the World</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Mauris eget venenatis ligula. Ut lacinia at dolor vitae 
+                pulvinar. Aliquam pretium dignissim eros. Integer faucibus, 
+                dui non aliquet bibendum, lectus orci lobortis odio, ornare 
+                porttitor est tellus eget velit. Nulla eros elit, malesuada id 
+                neque vel, viverra vehicula neque. Nullam auctor turpis non leo 
+                iaculis finibus. Quisque blandit arcu venenatis libero tempor, 
+                ac pulvinar ligula dapibus.
+            </p>
+            <!-- TODO:
+            Resolution Switching: Same size, diff resolutions. Supporting
+            multiple dispaly resolutions but all users see the image at the 
+            same real-world size on the screen.
+            -->
+            <img src="static/dog_on_water-800w.png" alt="Dog walking on water">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Mauris eget venenatis ligula. Ut lacinia at dolor vitae 
+                pulvinar. Aliquam pretium dignissim eros.
+            </p>
+        </section>
+        <section>
+            <h3>Elsewhere in the World</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Mauris eget venenatis ligula. Ut lacinia at dolor vitae 
+                pulvinar. Aliquam pretium dignissim eros. Integer faucibus, 
+                dui non aliquet bibendum, lectus orci lobortis odio, ornare 
+                porttitor est tellus eget velit. Nulla eros elit, malesuada id 
+                neque vel, viverra vehicula neque. Nullam auctor turpis non leo 
+                iaculis finibus. Quisque blandit arcu venenatis libero tempor, 
+                ac pulvinar ligula dapibus.
+            </p>
+            <!-- Resolution Switching: Display identical image content of
+                diff resolutions(sizes) depending on screen(device) sizes.
+            -->
+            <img src="static/courtyard.jpg" 
+                alt="Aerial view of a busy Temple courtyard" 
+                sizes="(max-width: 360px) 320px,
+                        (max-width: 640px) 600px,
+                        (max-width: 820px) 780px,
+                        1280px" 
+                srcset="static/courtyard-320w.png 320w,
+                        static/courtyard-600w.png 600w,
+                        static/courtyard-800w.png 800w">
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Mauris eget venenatis ligula. Ut lacinia at dolor vitae 
+                pulvinar. Aliquam pretium dignissim eros.
+            </p>
+        </section>
+        <footer>
+            <p>Images Origannly by Amos Chapple.</p>
+            <address>
+                <small>
+                    Page by <a href="#">Arthur Ngondo</a>
+                </small>
+            </address>
+        </footer>
+    </main>
+    
+</body>
+</html>

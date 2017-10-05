@@ -1,0 +1,38 @@
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+                'Lucida Sans', Arial, sans-serif;
+    background-color: gray;
+}
+
+body {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    background-color: white;
+/* The body content has a max-width - In viewports above that width the body
+remains at 1366px and centers itself in the available space. In viewports below
+that width, the body will stay at 100% of the width of the viewport */
+}
+
+header {
+    background: url(static/header1.jpg) no-repeat center;
+    height: 300px;
+}
+
+section {
+    padding: 20px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+footer {
+    align-content: center;
+}
